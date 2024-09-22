@@ -8,6 +8,7 @@ register('es', () => import('./locales/es.json'));
 register('gl', () => import('./locales/gl.json'));
 register('de', () => import('./locales/de.json'));
 register('fr', () => import('./locales/fr.json'));
+register('cn', () => import('./locales/cn.json'));
 
 init({
 	fallbackLocale: defaultLocale,
